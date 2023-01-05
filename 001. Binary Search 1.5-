@@ -2,5 +2,16 @@ Key points:
   1. sorted array
   2. no duplicate elements
   
+Solution:
+  1. start from the first and last elements in the array
+  2. compare the mid element (between current left and right elements) with the target
+  3. change the left or right element by the comparison result
+  4. until find the target, or left and right indexes have wrong logics
+  
+PS:
+  1. remember to +1 or -1 after comparison
+  
 Questions:
-  704.
+  704. Binary Search
+  
+    
