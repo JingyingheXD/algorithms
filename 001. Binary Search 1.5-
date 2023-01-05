@@ -8,10 +8,13 @@ Solution:
   3. change the left or right element by the comparison result
   4. until find the target, or left and right indexes have wrong logics
   
-PS:
+Notes:
   1. remember to +1 or -1 after comparison
   
 Questions:
   704. Binary Search
+  
+  35. Search Insert Position:
+    1. 
   
     
