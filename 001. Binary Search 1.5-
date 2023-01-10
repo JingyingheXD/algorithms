@@ -31,3 +31,5 @@ Finished questions:
        if target num is smaller, right = mid-- --> right, (target), left* --> return right
        if target num is bigger, left = mid++ --> right*, (target), left --> return right
        so, we only need to return left at last.
+
+  367. Valid Perfect Square
