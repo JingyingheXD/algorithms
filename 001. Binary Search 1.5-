@@ -1,6 +1,7 @@
-Key points:
+Features:
   1. sorted array
   2. no duplicate elements
+  3. time complexity: O(log n)
   
 Solution:
   1. start from the first and last elements in the array
@@ -10,16 +11,23 @@ Solution:
   
 Notes:
   1. remember to +1 or -1 after comparison
+  2. target must be bigger than left, and smaller than right
   
-Questions:
+Finished questions:
   704. Binary Search
   
   35. Search Insert Position:
     1. still use the general Binary Search algorithm
     2. finally, left and right will point to the same number since "<="
     3. after that, the target number will be compared with the 'same number'
-    4. if target num is bigger, left ++ --> current left is the correct index;
-       if target num is smaller, right -- --> current left is the correct index.
+    4. if target num is smaller, right = mid-- --> current left is the correct index;
+       if target num is bigger, left = mid++ --> current left is the correct index.
        so, we only need to return left at last.
   
-    
+  69. Sqrt(x)
+    1. still use the general Binary Search algorithm
+    2. finally return right
+    3. target is bigger than left, and smaller than right
+       if target num is smaller, right = mid-- --> right, (target), left* --> return right
+       if target num is bigger, left = mid++ --> right*, (target), left --> return right
+       so, we only need to return left at last.
