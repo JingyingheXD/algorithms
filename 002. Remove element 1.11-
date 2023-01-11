@@ -8,6 +8,7 @@ Solution:
       slow pointer: point to the new array's next element
   
 Notes:
+  1. only the arrary element is not the value, slow ++
 
   
 Finished questions:
