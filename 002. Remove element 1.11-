@@ -3,13 +3,31 @@ Features:
   2. remove an element
   
 Solution:
-  1. double pointer:
+  1. two pointers:
       fast pointer: search and find the next element which is not the target number in the array
       slow pointer: point to the new array's next element
   
 Notes:
-  1. only the arrary element is not the value, slow ++
+  1. slow pointer always points to retained ones
+  2. !! two pointers always can be solved by stack, but stack's time complexity and space complexity are worse.
+      This is because the two pointers method only change in the original array, but the stack method needs extra space.
+      And the two pointers method only needs to go throught the array once.
 
   
 Finished questions:
   27. Remove Element
+  
+  26. Remove Duplicates from Sorted Array
+    1. slow: the new number which waits for comparison
+    2. fast: the next number
+    
+  283. Move Zeroes
+    1. slow: the next element which is waiting to change position (2 situations: zero or positive integers. If it's positive int, it changes positions with itself)
+    2. fast: the next non-zero element
+    
+  844. Backspace String Compare
+    1. slow: the realy string. If fast meets #, slow --
+    2. fast: the next element
+    
+  977. Squares of a Sorted Array
+    
