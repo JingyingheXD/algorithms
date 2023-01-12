@@ -30,4 +30,5 @@ Finished questions:
     2. fast: the next element
     
   977. Squares of a Sorted Array
+    1. compre left pointer element and right pointer element, the bigger one will be put in the new array's last spot
     
