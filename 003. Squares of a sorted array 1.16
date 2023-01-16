@@ -1,0 +1,14 @@
+Features:
+  1. sorted array 
+  2. square/abs
+  
+Solution:
+  1. two pointers:
+      compare the absolute value of left pointer and the right pointer, always save the biggest one to the result array
+  
+Notes:
+
+Finished questions: 
+ 
+ 977. Squares of a Sorted Array
+    1. compre left pointer element and right pointer element, the bigger one will be put in the new array's last spot
