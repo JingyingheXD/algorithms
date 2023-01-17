@@ -1,11 +1,21 @@
 
 Features:
-  1. 
+  1. array
+  2. find a shortest array, and the sum is greater than or equal to S
   
 Solution:
-  1. 
-  
+  1. Brute Force: go through the array and calculate the sum of sub-array one by one
+    for (i ...):
+      for (j ...)
+  2. Slide Window: 
+      1. use one for loop to go through the array. If we loop through start, it needs to use another for loop. It's same with the Brute Force method.
+          So, we need to loop through end j.
+      2. move the end one by one;
+         move the start only if the current sum is greater than or equal to S (in order to find the nearest one)
+      3. use a variable to save the shortest array length so far
+      
 Notes:
   1. 
   
 Finished questions:
+  209. Minimum Size Subarray Sum
