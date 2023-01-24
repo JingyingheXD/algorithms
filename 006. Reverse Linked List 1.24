@@ -1,0 +1,17 @@
+Features:
+  1. reverse linked list
+  
+Solution:
+  1. use three pointers:
+    pre: the left pointer
+    cur: the mid pointer
+    tmp: the right pointer
+  2. make the tmp to store the new head of the linked list
+  3. make cur.next points to pre
+  4. pre ++, cur ++
+  5. until cur points to none/null
+      
+Notes:
+  
+Finished questions:
+  206. Reverse Linked List
