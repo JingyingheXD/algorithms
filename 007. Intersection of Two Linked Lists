@@ -1,0 +1,22 @@
+Features:
+  1. intersection of two linked lists
+  
+Solution:
+  1. if there is an intersection of these linked lists, the last parts of list(A+B) should be equal to list(B+A)
+  2. make p1 points to headA, and p2 points to headB
+  3. while p1 != p2, 
+      if p1 is None: p1 points to headB; else: p1 points to the next node;
+      if p2 is None: p2 points to headA; else: p2 points to the next node;
+  4. return p1 or p2
+      
+Notes:
+  1. Don't need to worry about there will be list(A+B+B+B...) or list(B+A+A+A...).
+        if len(A) == len(B):
+            if there is an intersection: p1 will be equal to p2;
+            else: p1 will not be equal to p2, and finally they points to None, quit the while loop.
+        if len(A) != len(B):
+            if there is an intersection: p1 will be equal to p2;
+            else: p1 will not be equal to p2, and finally they points to None, quit the while loop.
+  
+Finished questions:
+  160. Intersection of Two Linked Lists
