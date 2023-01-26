@@ -1,0 +1,16 @@
+Features:
+  1. quickly to find if a char or an item is in an array or not
+  
+Solution:
+  1. create a dictionary to record what characters in s, and how mnay times 
+  2. go through s, and calculate how many times for each character
+  3. go through t, find if each character is in the dictionary
+      if not, return False
+      else, reduce 1 for the value
+  4. finially, sum all values of the dictionary to see if it's equal to 0
+      
+Notes:
+  1. when we need to check if an item is in an array, we can use a hash table
+  
+Finished questions:
+  242. Valid Anagram
