@@ -1,10 +1,19 @@
 Features:
-  1. 
+  1. characters
+  2. frequency
   
 Solution:
-
+  1. use Counter to calculate the first word about the times of each character
+  2. take intersection of all words' Counter one by one
+  3. transform the final intersection dictionary into a list
       
 Notes:
+  1. collections.Counter(word):
+      key: characters
+      value: times of characters
+  2. the way to take intersection of dictionaries:
+      1. dic1 & dic2
+      2. dic[k] = min(dic1[k], dic2[k])
   
 Finished questions:
   1002. Find Common Characters
