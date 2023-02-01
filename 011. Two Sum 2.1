@@ -1,15 +1,14 @@
 Features:
-  1. Infinity
-  2. check if it's a new number 
+  1. check if a value is in the array
   
 Solution:
-  1. create a set
-  2. check if a number is a new one,
-      if yes, put it in the set and calculate based on the question
-      if not, end the loop, and check if the number is happy
+  1. create a map to save elements that we've gone through
+      key: number, value: index in the array
+  2. go through the array, check if (target - element) is in the map
+      yes: find all numbers
+      no: contine the loop
       
 Notes:
-  1. it's important to create a set to store all numbers that have been checked
   
 Finished questions:
-  202. Happy Number
+  1. Two Sum
